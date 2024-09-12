@@ -1,0 +1,9 @@
+-- CreateTable
+CREATE TABLE "Popup" (
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "isActive" BOOLEAN NOT NULL DEFAULT true,
+    "displayTime" DATETIME NOT NULL,
+    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    "updatedAt" DATETIME NOT NULL,
+    "shop" TEXT NOT NULL
+);
